@@ -1,0 +1,20 @@
+[
+    {
+       "idProfesor": "Mikecraft",
+       "Nombre": "Mike",
+       "Profesion": "Frontend Developer"
+    },
+    {
+        "idProfesor": "Andrescraft",
+       "Nombre": "Andres",
+       "Profesion": "Backend Developer"
+    },
+    {
+        "idProfesor": "Luiscraft",
+       "Nombre": "Luis",
+       "Profesion": "Database Developer"
+    },
+    {"idProfesor": "Andreacraft",
+        "Nombre": "Andrea",
+        "Profesion": "React Developer"}
+]
