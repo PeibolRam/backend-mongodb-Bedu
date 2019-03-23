@@ -46,6 +46,26 @@ app.post("/estudiantes/nuevo",(req,res)=>{
     })
 })
 
+//Modificar estudiante
+app.post("/estudiantes/:nombre", (req,res)=>{
+    const cambios = req.body
+    const nombreABuscar=req.params.nombre
+
+    Estudiante.update(
+        // 1. Query o el tipo de búsqueda
+        {nombre: nombreABuscar },   
+        // 2. El cambio    
+        {$set: req.body},
+        //3. El callback (cuando sucede la edición, ¿qué hacemos?)
+        (err, doc) => {
+            // En caso de error
+            if(err) console.log(err)
+            // NO HAY ERROR NO HAY ERROR
+            res.send(doc)
+        }
+    )
+})
+
 
 
 //ruta de profesores
