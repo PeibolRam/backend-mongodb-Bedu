@@ -1,0 +1,22 @@
+[
+    {
+        "idCarrera": "01",
+        "titulo":"Ingenieria en sistemas computacionales",
+        "noSemestres":9
+    },
+    {
+        "idCarrera": "02",
+        "titulo":"Ingenieria en computacion",
+        "noSemestres":8
+    },
+    {
+        "idCarrera":"03",
+        "titulo":"Ingenieria en informatica",
+        "noSemestres":9
+    },
+    {
+        "idCarrera":"04",
+        "titulo":"Licenciatura en informatica",
+        "noSemestres":8
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+       "idEstudiante": "PabloId",
+       "nombre": "Pablo",
+       "promedio": 9
+    },
+    {
+        "idEstudiante": "AndresId",
+       "nombre": "Andres",
+       "promedio": 7
+    },
+    {
+        "idEstudiante": "LuisId",
+       "nombre": "Luis",
+       "promedio": 8.7
+    },
+    {"idEstudiante": "AndreaId",
+        "nombre": "Andrea",
+        "promedio": 10}
+]
