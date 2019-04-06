@@ -113,10 +113,10 @@ app.get("/carreras", (req, res) => {
     })
 })
 //ruta de una carrera
-app.get("/carreras/:Nombre", (req, res) => {
-    const nombreABuscar = req.params.Nombre
-    console.log(nombreABuscar)
-    Carrera.find({Nombre:nombreABuscar}).then(datitos => {
+app.get("/carreras/:idCarrera", (req, res) => {
+    const idABuscar = req.params.idCarrera
+    console.log(idABuscar)
+    Carrera.find({idCarrera:idABuscar}).then(datitos => {
         res.send(datitos)
     })
 })
